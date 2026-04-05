@@ -127,7 +127,7 @@ Higher A10 values increase approval probability
 
 ### 🔹 Pairplot Analysis
 
-![Pairplot](outputs/pairplot.png)
+![Pairplot](<outputs/pairplot.png>)
 
 **Insight:**
 Partial separation between approved and rejected groups

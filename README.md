@@ -64,69 +64,69 @@ To ensure the reliability of insights, the following steps were performed:
 
 📊 Key Visualizations & Insights
 
-🔹 Approval vs Rejection
+###🔹 Approval vs Rejection
 
-![Approval vs Rejection](<Approval vs Rejection.png>)
+![Approval vs Rejection](<outputs/approval_vs_rejection.png>)
 **Insight:**
 Slightly more rejected applications than approved
 Indicates relatively strict approval criteria
 
-🔹 Top Factors Influencing Approval
+###🔹 Top Factors Influencing Approval
 
-![Top Factors Influencing Approval](<Top Factors Influencing Approval.png>)
+![Top Factors Influencing Approval](<outputs/top_factors_influencing_approval.png>)
 **Insight:**
 A14 dominates approval decisions
 Other features (A10, A2, A5, A7) have smaller but meaningful impact
 
-🔹 Normalized Feature Impact
+###🔹 Normalized Feature Impact
 
-![Normalized Feature Impact](<Normalized Feature Impact.png>)
+![Normalized Feature Impact](<outputs/normalized_feature_impact.png>)
 **Insight:**
 A14 shows high magnitude impact, but correlation analysis indicates A8 is the strongest predictor.
 
-🔹 Distribution of A14
+###🔹 Distribution of A14
 
-![Distribution of A14](<A14 Distribution.png>)
+![Distribution of A14](<outputs/a14_distribution.png>)
 **Insight:**
 Highly right-skewed distribution
 Presence of extreme high-value applicants
 
-🔹 Approved vs Rejected (A14)
+###🔹 Approved vs Rejected (A14)
 
-![Approved vs Rejected](<Approved vs Rejected Distribution.png>)
+![Approved vs Rejected](<outputs/approved_vs_rejected_distribution.png>)
 **Insight:**
 Approved customers tend to have higher A14 values
 
-🔹 A14 vs Class (Boxplot)
+###🔹 A14 vs Class (Boxplot)
 
-![Boxplot](<A14 vs Class (Boxplot).png>)
+![Boxplot](<outputs/a14_vs_class_boxplot.png>)
 **Insight:**
 Approved group has higher median and wider spread
 Significant outliers present
 
-🔹 Correlation Matrix
+###🔹 Correlation Matrix
 
-![Correlation Matrix](<Correlation Matrix.png>)
+![Correlation Matrix](<outputs/a14_vs_class_boxplot.png>)
 **Insight:**
 Strong correlations among A8, A9, A10
 These features likely represent related financial behavior
 
-🔹 A10 vs Approval
+###🔹 A10 vs Approval
 
-![A10 vs Approval](<A10 vs Approval.png>)
+![A10 vs Approval](<outputs/a10_vs_approval.png>)
 **Insight:**
 Higher A10 values increase approval probability
 
-🔹 Pairplot Analysis
+###🔹 Pairplot Analysis
 
-![Pairplot](Pairplot.png)
+![Pairplot](outputs/pairplot.png)
 **Insight:**
 Partial separation between approved and rejected groups
 Indicates potential for predictive modeling
 
-🔹 A14 vs A10 Scatter Plot
+###🔹 A14 vs A10 Scatter Plot
 
-![A14 vs A10 Scatter Plot](<A14 vs A10 Scatter.png>)
+![A14 vs A10 Scatter Plot](<outputs/a14_vs_a10_scatter.png>)
 **Insight:**
 Approved customers cluster in higher-value regions
 Combination of features improves decision clarity
